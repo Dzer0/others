@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+{% for i in cont %}
+        <p>{{ i.title }}</p>
+        <p>{{ i.data|safe }}</p>
+        <p>{{ i.author }}</p>
+{% endfor %}
+</body>
+</html>
